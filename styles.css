@@ -1,29 +1,36 @@
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 0px 10%;
+    padding: 0px;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
 .header{
       display: flex;
-      border: 1px solid red;
       align-items: center;
-      padding: 10px;
+      padding: 10px 10%;
       height: 4%;
+      background-color: #1F2937;
   }
 
 .logo{
-      border: 1px solid red;
+      font-size: 24px;
+      color: #f9faf8;
   }
+
+a{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
 
 .links{
       margin-left: auto;
-      border: 1px solid red;
       display: flex;
       padding: 0px;
-      gap: 10px;
+      gap: 15px;
   }
 
 ul {
@@ -31,13 +38,22 @@ ul {
   }
 
 .content1{
-    border: 1px solid red;
     display: flex;
-    padding: 10px 0px;
+    padding: 130px 10%;
+    background-color:#1F2937 ;
+    color: #e5e7eb;
+    font-size: 24px;
   }
+
+.headline{
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
 
 .left{
   flex: 1;
+  padding-right: 5px;
 }
 
 .right{
@@ -45,22 +61,34 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: steelblue;
+    padding-left: 5px;
   }
 
 .content1 button{
   margin-top: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 6px;
+  font-size: 24px;
+  padding: 3px 30px;
 }
 
 .content2{
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
+  padding: 100px 11% 130px;
 }
 
 .title{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #1F2937;
+  padding-bottom: 80px;
 }
 
 .items{
@@ -76,13 +104,26 @@ ul {
   align-items: center;
 }
 
+.pic{
+  border: 3px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.text{
+  padding: 10px;
+}
+
 .content3{
-  border: 1px solid red;
-  padding: 40px 20px;
+  padding: 130px 10%;
+  background-color: #e5e7eb;
 }
 
 .quote{
-  padding-left: 10%;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937
 }
 
 .signature{
@@ -90,22 +131,54 @@ ul {
   justify-content: flex-end;
   padding-right: 10%;
   padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .content4{
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 100px 10%;
 }
 
 .container{
   display: flex;
+  background-color: #3882f6 ;
+  border: 1px solid green;
+  flex: 1;
+  padding: 30px 100px;
+  border-radius: 7px;
+  color:#f9faf8;
+}
+
+.container .right{
+  background-color: #3882f6;
 }
 
 .container .left{
   flex: 2;
+}
+
+.containter, button{
+  background-color: #3882f6 ;
+  border: #f9faf8 2px solid;
+  color:#f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.bold{
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.under{
+  font-size: 18px;
+  font-weight: thin;
 }
 
 .footer{
@@ -115,5 +188,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border: 1px solid red;
+  background-color: #1F2937;
+  color:#f9faf8;
+  font-size: 13px;
 }
