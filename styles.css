@@ -13,6 +13,9 @@ body {
       padding: 10px 10%;
       height: 4%;
       background-color: #1F2937;
+      position: sticky;
+      top: 0;
+      z-index: 100;
   }
 
 .logo{
