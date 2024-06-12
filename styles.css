@@ -157,16 +157,16 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 10%;
+  padding: 100px;
+  
 }
 
 .container{
   display: flex;
   background-color: #3882f6 ;
-  border: 1px solid green;
-  flex: 1;
   padding: 30px 100px;
   border-radius: 7px;
+  min-width: 50vw;
   color:#f9faf8;
 }
 
